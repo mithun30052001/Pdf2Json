@@ -1,0 +1,11 @@
+<h1>PDFS</h1>
+
+<%= link_to 'New Pdf', new_pdf_path %>
+
+<ul>
+  <% @pdfs.each do |pdf| %>
+    <li>
+      <%= link_to pdf.title, pdf %>
+    </li>
+  <% end %>
+</ul>

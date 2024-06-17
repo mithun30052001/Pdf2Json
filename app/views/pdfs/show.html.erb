@@ -1,0 +1,10 @@
+<h1><%= @pdf.title %></h1>
+
+<p>
+  <%= link_to 'Download PDF', @pdf.pdf.url %>
+</p>
+
+<h2>PDF Content:</h2>
+<pre><%= @pdf.pdf_text %></pre>
+
+<%= link_to 'Back', pdfs_path %>
