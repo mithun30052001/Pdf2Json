@@ -42,8 +42,9 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-gem 'wicked_pdf'
-gem 'pdf-reader'
+gem 'carrierwave', '~> 2.2'
+gem 'mini_magick', '~> 4.11'
+gem 'pdf-reader', '~> 2.9'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
